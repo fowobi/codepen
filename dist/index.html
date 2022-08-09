@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - Personal Home Page template  tosin odunuga</title>
+  <title>Codepen Personal Home Page template tosin odunuga</title>
   <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="style.css">
 
@@ -32,14 +33,30 @@ Make the first test pass by adding a <header> </header>-->
    <h1> MY PERSONAL STATEMENT</h1>
   <nav>
      <ul>
-        <li>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        </li>
-      </ul>
-       <a href="#">INTRODUCTION</a>
+      <nav class="navbar">
+        <a href="#" class="nav-logo">About Me.</a>
+        <ul class="nav-menu">
+            <li class="nav-item"> 
+                <a href="#" class="about me">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="experience">Experince</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="contact">Contact</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+
+            </div>
     </nav>
+</header>
    <main>
      <nav aria-label="Main Site Links."></nav>
   <p> In 2004,I graduated from Olabisi Onabanjo University Ogun State Nigeria with Bsc.Banking and finance but my passion for Programming and cybersecurity  is unconditional and I have always had a keen interest in knowing what is happening in the Information technology business environment as a whole;that is why I have decided to apply for Code your future because i want to do career in this field and i am pretty sure that this program will equip me with lot of tools and skills required to do so;through this program i will have the chance to sink into the world of economy and profit of the high demand that is there currently for the IT graduates in the job market.
@@ -50,33 +67,122 @@ I am a person who is always ready to or on a go to participate to take part in s
 
 In problem solving situations,I have a tireless eye for details and analyze the problem through several techniques before making any important decision.
 </p>
-   <footer class="c-site-footer">
-      <p>written by <a href="/users/cap">cap</a>
-        
- <nav>    
-<ul>
+<a href="#" class="nav-logo">Experince.</a>
+<p>  
+  I have experience and skill in HTML,CSS and JavaScript. 
+  As a web developer I can write code in one or more programming or scripting languages,such as JavaScript. 
+  Test sites and applications in different browsers and environments. 
+  fix bugs in existing projects. 
+  Meet designers,developers and project staff for progress updates. 
+  Learn and test new technologies,frame-works and languages. Build and maintain databases. 
+  Document code,so that other developers can understand and contribute to it. Attention to detail.</p>
+<a href="#" class="nav-logo">Skills.</a>
+<p>
+  HTML.
+ Cascading Style Sheets (CSS).
+ JavaScript.
+ Interpersonal Communication .
+ Direct Marketing .
+ Operations Management.
+ Communication Teamwork Problem Solving.
+ Football.
+
+ </p>
+<h1>
+  <img width="250"height="350" src="https://lh3.googleusercontent.com/q6wa66ElgfR6ARkl0pdYXKf0AgOKJn1DyShpZXWEM7E47dRu6Gemx5zBSxthvIhxp4uZeZCaqc0lQqq1jdwOeLDT_VlnzZ97CKUIgEMYQowhIHidaVRd602b8ldF6cMNdM2Gtl2HndGymPSd4r8MzG0I1Ag1V74lgFt25I1sz_w6YftBVF3kTu664Xno2BR_QMmSzoFDB2Ax76zmlZm9lbShZF2pxgCSZMMTmbFdldoWoa7QopIeh69xm9rBjkZFSHwtRQqGP7PF-cQzdQ43e1C7xNfu_90T-du2p1dXoj8zUoJnNvu8IQldQuT_4fwgjTJO1yCSTx-Id9FHRHputgCEu1K6JK3zsKXIEfHhN9HEaDXURAWPQd8DAM8OcnVE5qSOTzCBziPdFekNlW2ophMd_ug1rtBQIGDWToTj1WPtfR8ZU20OYsOT7RioMlWtot7NXeumNQVz5hx9kI2MB68_MPoRpW-78Fa_eJEgdUSWUlPU1HcGnJ4_iBrnmUGSfi7rZWOxLn3HeqPijGdnIzLvR2TcG7XO_0_gGKuTObO8hUPhfatvy4kjpl6y_g-VM6fZbPCU6DV-Y3susR8EfcGFDBeDpxuRPY09xF-yCTqgkaeUWVodn-PP2Bu6ZZGInvWVQDdGnm62O5GCn-h-UcMzV683VOd1pAVfKTduEQwg1ZVKGxzNkb_ecySNKYroyglDFLYZtUIr9PsSko_V-hbX-JLEGnQMCGVUd0i8SpfEz9K31qcxT7cxicx-=w674-h898-no?authuser=0">
+
+  <iframe width="453" height="280" src="https://www.youtube.com/embed/uFNWEKHHBFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</h1>
+  
+<footer class="c-site-footer">
+      
+  
+ <nav>   
+  <ul>
   <li>
-     <a href="#">Facebook</a>
-          <a href="#">Youtube</a>
-          <a href="#">Instagram</a>
+    
+    <ul>
+     <li><a href="#">Facebook</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">Twitter</a></li>
+    
           </li>
         </ul>
+
       </nav>
 
+      <h1>My CYF Project:Show earnings and expenses</h1>
+<p>input value<input id="input"type="text"></input>
+</p>
+<p>Earnings:<span id="earn-total">0</span></p>
+<ul id="earnings-list"></ul>
+<p>Expenses:<span id="expense-total">0</span></p>
+<ul id="expenses-list"></ul>
+<p>Balance:<span id="balance">0</span></p>
+<button id="button">Submit</button>  </h1>
 
-      <p>lists of names</p>
-      <ul id="list"></ul>
-      <input id="text"/>
-      <button id="button">select facilitator</button>
 
+
+
+
+
+
+
+
+
+      <h1>My CYF Project:Build an image carousel</h1>
+       <img id="showing-image"src="" width="550" height="450">
+      <button id="previous-btn">Previous</button>
+      <button id="next-btn">Next</button>
+      </h1>
+    <h3>
+        <p><label for="comment">Feedback from client:</label></p>
+<ul id="comment-list">
+  <li>The picture are well clear...by wale</li>
+  <li>The picture are well arrange...by collins</li>
+  <li>The previous button is very slow when press to load the previous image....by ahmed </li>
+
+
+</ul> 
+
+<textarea id="ta-comment" name="commentary" rows="4" cols="50">please leave feedback here.....</textarea>
+  
+<button id="comment-sub"class="general-button">Submit</button>
+
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+      
    copyright &copy;2022 fowobi</footer>
- <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHXTQgJSZNlIw/profile-displayphoto-shrink_200_200/0/1516921305856?e=1657152000&amp;v=beta&amp;t=FsKkhVvFPXXWVWen2CbRAoZLV8ewGtTPgpPrlp059jo" alt="tosin odunuga"/>
-     <iframe width="853" height="480" src="https://www.youtube.com/embed/uFNWEKHHBFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </main>
+    
+    </main>
 
  </body>
 
    </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
