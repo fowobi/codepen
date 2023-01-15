@@ -6,8 +6,9 @@
 */
 html,
 body {
-  margin: 20px;width:100%;
-  height: 100%;background-color: rgb(185, 173, 230);font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;width:100%;background-color: rgb(230, 184, 173);border-style: solid;
+  border-color: green;
+  height: 100%;font-family: Arial, Helvetica, sans-serif;border-radius: 20px;
 }
 h1 {
   color: white;
@@ -16,101 +17,54 @@ h1 {
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: white;border-style: solid;
+  border-color: green;
 }
-h3 {text-align:center;}
-
+h3,h2 {text-align:center;}
+h4 {
+  font-size: 30px;text-align:left;font-style: italic;
+}
+h5 {text-align:center;font-style: italic;}
 p {
-  
+ 
   font-size: 20px; text-align: center;
   margin-right: 150px;
   margin-left: 80px;
-
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.header{
-  border-bottom: 1px solid #E2E8F0;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
-}
-
-  
-
-.hamburger {
-  display:inline-block;cursor:pointer;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #101010;
-}
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;position: fixed;
-  left: -100%;
-  top: 5rem;
-  flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  width: 5%;
-  border-radius: 10px;
-  text-align: center;
-  transition: 0.3s;
-  box-shadow:
-      0 10px 27px rgba(0, 0, 0, 0.05);
-}
-.nav-menu.active{left:0;
-}
-.nav-item {
-  margin-left: 5rem;margin:2.5rem 0;
-}
-
-.nav-link{
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #475569;
-}
-
-.nav-link:hover{
-  color: #482ff7;
-}
-
-.nav-logo {
-  font-size: 2.1rem;
-  font-weight: 500;
-  color: #482ff7;
-}
-
-     
-
-
-  
-
-
-
  
-  
-
-
-
-
+}
+ 
+ 
+navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+ 
+/* Navbar links */
+.navbar a {
+  float: center;
+  text-align: center;
+  padding: 12px;
+  color: rgb(79, 26, 114);
+  text-decoration: none;
+  font-size: 17px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 /* don't edit this */
-
-.jest-lite-report__status--pass 
+ 
+.jest-lite-report__status--pass
   background:var(--color-pass)
   .jest-lite-report__errors  {display:none }
+ 
+ 

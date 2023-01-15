@@ -1,93 +1,154 @@
-<!-- =================
-  WRITE YOUR HTML HERE
-
-You only need to write the HTML that goes inside the <body> tag. To add things to the <head>, click the ⚙️ 
-   ===================
--->
-
-<!--- All the tests are red! You have to make them green. 
-
-Q How do you make the tests pass?
-A Meet the requirements!
-
-Make the first test pass by adding a <header> </header>-->
 <!DOCTYPE html>
-<html lang="en">
- <head>
-   <title>MY PERSONAL STATEMENT</title>
-   </head>
-  <body class="main-content">  
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Codepen Personal Home Page template tosin odunuga</title>
+  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+  <title>Personal home page</title>
+ 
+</head>
+ 
+<body>
+    <main>
+     
+     <body class="main-content">  
     <header class="c-site-header"></header>
    <h1> MY PERSONAL STATEMENT</h1>
-  <nav>
+    <nav>
      <ul>
-        <li>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        </li>
-      </ul>
-       <a href="#">INTRODUCTION</a>
-    </nav>
-   <main>
-     <nav aria-label="Main Site Links."></nav>
-  <p> In 2004,I graduated from Olabisi Onabanjo University Ogun State Nigeria with Bsc.Banking and finance but my passion for Programming and cybersecurity  is unconditional and I have always had a keen interest in knowing what is happening in the Information technology business environment as a whole;that is why I have decided to apply for Code your future because i want to do career in this field and i am pretty sure that this program will equip me with lot of tools and skills required to do so;through this program i will have the chance to sink into the world of economy and profit of the high demand that is there currently for the IT graduates in the job market.
-
+      <div class="container">
+        <nav class="navbar" aria-label="Main Site Links.">
+          <ul>
+              <li><a class="nav-link" href="#about_me">About Me</a</li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+              <li><a class="nav-link" href="#mycyfproject">My CYF Project</a></li>
+       
+           </li>
+        </ul>
+                 
+      </div>
+ 
+        </nav>
+      </main>
+ 
+   
+   
+    </header>
+     <main id="about_me">
+    <h1>About Me</h1>
+     <p> In 2004,I graduated from Olabisi Onabanjo University Ogun State Nigeria with Bsc.Banking and finance but my passion for Programming and cybersecurity  is unconditional and I have always had a keen interest in knowing what is happening in the Information technology business environment as a whole;that is why I have decided to apply for Code your future because i want to do career in this field and i am pretty sure that this program will equip me with lot of tools and skills required to do so;through this program i will have the chance to sink into the world of economy and profit of the high demand that is there currently for the IT graduates in the job market.
+ 
   I believe that my personal attributes,academic achievements and relevant work experience make me a suitable candidate for the course. As far as my personal experiences are concerned,they taught me to have patience,self emotion control as well as realize the importance of listening,respecting the opinions of others and the significance of being versatile.
-
+ 
 I am a person who is always ready to or on a go to participate to take part in students and community events and I believe through that way I can contribute in my way in creating and promoting a healthy and better student environment.
-
+ 
 In problem solving situations,I have a tireless eye for details and analyze the problem through several techniques before making any important decision.
 </p>
-   <footer class="c-site-footer">
-      <p>written by <a href="/users/cap">cap</a>
-        
- <nav>    
-<ul>
-  <li>
-     <a href="#">Facebook</a>
-          <a href="#">Youtube</a>
-          <a href="#">Instagram</a>
-          </li>
-        </ul>
-      </nav>
+ 
+<div id="visitid">
+  <p id="visit">You can also click on<a id="link" href="https://docs.google.com/document/d/1Ck--0xk3MlQskARmI_7xUGYsj-WRITWg5Q31_XrjC0U/edit?usp=sharing"> My Resume.</a></p>
+</div>
+ 
+ 
+ 
+<h1>
+   <img width="250"height="350"src="https://raw.githubusercontent.com/fowobi/ts/main/tspix.jpg"/>
+ 
+  <iframe width="253" height="380"src="https://www.youtube.com/embed/2MsN8gpT6jY" title="What is GitHub Pages?" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      
+  </h1>
+ 
+<footer class="c-site-footer">
+   <h4>Contact</h4>
+  <div class="navbar">
+    <nav aria-label="Main Site Links.">
+      <main id="contact"></main>
+      <h5>
+      <a>FOLLOW ME ON:</a>
+      <a id="twitter" class="fa fa-twitter" target="_blank" href="https://www.twitter.com/@fowobi21/"> Twitter</a>
+      <a id="instagram" class="fa fa-instagram" target="_blank" href="https://www.instagram.com/fowobi21_/"> Instagram</a>
+      <a id="linkedln" class="fa fa-linkedln" target="_blank" href="https://www.linkedin.com/in/tosin-undefined-355054247/_/"> linkedln</a>
+      </h5>
+   
+     </nav>
+    </div>
+    <nav aria-label="Main Site Links.">
+ 
+    <main id="mycyfproject"></main>
+  <h1>My CYF Project:Show earnings and expenses</h1>
+    <p>input value<input id="input"type="text"></input>
+</p>
+<p>Earnings:<span id="earn-total">0</span></p>
+<ul id="earnings-list"></ul>
+<p>Expenses:<span id="expense-total">0</span></p>
+<ul id="expenses-list"></ul>
+<p>Balance:<span id="balance">0</span></p>
+<p>
+<button id="button">Submit</button>  </p>
+ 
+<h1>My CYF Project:Build an image carousel</h1>
+ <h2>
+ <img id="showing-image"src="" width="550" height="450">
+<button id="previous-btn">Previous</button>
+ <button id="next-btn">Next</button></h2>
+ 
+ <h1>List of products and Shopping Lists</h1>
+ <h2>
+<ul id="products">
+<li>Eggs <button id="btn-eggs">Add to list</button></li>
+<li><span>Bacon</span> <span><button id="btn-bacon">Add to list</button></span></li>
+<li><span>Bread</span> <span><button id="btn-bread">Add to list</button></span></li>
+<li><span><input type="text" placeholder="Other Items" id="input-ingredients"></input></span> <span><button id="btn-other">Add to list</button></span></li>
+</h2>
+</ul>
+</div>
+<div class="section">
+<div>
+<h2>Shopping List</h2>
+<h2>
+<i>(Click item to Check off)</i>
+<ol id="shopping-list"></ol>
+<div class="center">
+<button id="btn-remove">Remove Last</button>
+<button id="btn-reset">Reset</button>
+</h2>
+</div>
+</div>  
+     
+    <h1>
+      <p><label for="comment">Feedback from client:</label></p>
+<ul id="comment-list">
+ 
+<textarea id="ta-comment" name="commentary" rows="4" cols="50">please leave feedback here.....</textarea>
+ 
+<button id="comment-sub"class="general-button">Submit</button>
+ 
+</h1>
+<h4>
+     
    copyright &copy;2022 fowobi</footer>
- <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHXTQgJSZNlIw/profile-displayphoto-shrink_200_200/0/1516921305856?e=1657152000&amp;v=beta&amp;t=FsKkhVvFPXXWVWen2CbRAoZLV8ewGtTPgpPrlp059jo" alt="tosin odunuga"/>
-     <iframe width="853" height="480" src="https://www.youtube.com/embed/uFNWEKHHBFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </main>
+</h4>
+    </main>
+ 
  </body>
+ 
    </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 <!-- Your test console.
 Don't delete!-->
 <aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
 </aside>
+<!-- partial -->
+ 
+    <script src="/.script2.js"></script>
+     <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+     <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
+ 
+</body>
+</html>
