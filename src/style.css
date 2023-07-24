@@ -4,6 +4,8 @@
   You must write some CSS to complete this challenge.
    ===================
 */
+
+
 html,
 body {
   margin: 20px;width:100%;background-color: rgb(230, 184, 173);border-style: solid;
@@ -51,11 +53,16 @@ navbar {
   font-size: 24px;
 }
  
- 
- 
- 
- 
- 
+li{
+  display: block;
+} 
+#earnings-list,
+ #expenses-list{
+  display: none;
+}
+.pic-img{
+  margin-right: 10rem;
+}
  
  
  
